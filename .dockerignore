@@ -1,0 +1,10 @@
+.DS_Store
+/node_modules
+.env
+/logs
+/log
+/docs
+/dist
+/coverage
+/localtest
+/test

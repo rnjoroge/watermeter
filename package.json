@@ -1,0 +1,31 @@
+{
+  "name": "nodewatermeter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npm run build && npm run start",
+    "start": "node ./dist/index.js",
+    "build": "rimraf dist && tsc -p .",
+    "test": "NODE_ENV=test jest"
+  },
+  "dependencies": {
+    "cbor-x": "^1.5.6",
+    "crc": "^4.3.2",
+    "dotenv": "^16.0.3",
+    "easy-crc": "^1.1.0",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "rimraf": "^4.4.1",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"declaration": true,
+		"noImplicitAny": false,
+		"removeComments": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"skipDefaultLibCheck": true,
+		"target": "ES2017",
+		"strict": false,
+		"lib": ["ES2017"],
+		"sourceMap": false,
+		"outDir": "dist",
+		"baseUrl": "./src/",
+		"skipLibCheck": true,
+		"paths": {
+		  "*": ["src/*"]
+		}
+	  },
+	  "include": ["src/**/*.ts"],
+	  "exclude": [
+			"node_modules", 
+			"dist",
+			"_templates",
+			"coverage",
+			"logs",
+			"typings/main", 
+			"typings/main.d.ts",
+			"**/*.spec.ts",
+			"**/*.test.ts"]
+	}
+
